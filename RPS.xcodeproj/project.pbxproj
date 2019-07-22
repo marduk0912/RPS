@@ -12,6 +12,8 @@
 		18634A08229C75E800C9A1EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18634A06229C75E800C9A1EE /* Main.storyboard */; };
 		18634A0A229C75F800C9A1EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18634A09229C75F800C9A1EE /* Assets.xcassets */; };
 		18634A0D229C75F800C9A1EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18634A0B229C75F800C9A1EE /* LaunchScreen.storyboard */; };
+		18634A15229C777800C9A1EE /* sing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18634A14229C777800C9A1EE /* sing.swift */; };
+		18634A17229C785900C9A1EE /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18634A16229C785900C9A1EE /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		18634A09229C75F800C9A1EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18634A0C229C75F800C9A1EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18634A0E229C75F800C9A1EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18634A14229C777800C9A1EE /* sing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sing.swift; sourceTree = "<group>"; };
+		18634A16229C785900C9A1EE /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		18634A01229C75E800C9A1EE /* RPS */ = {
 			isa = PBXGroup;
 			children = (
+				18634A14229C777800C9A1EE /* sing.swift */,
+				18634A16229C785900C9A1EE /* GameState.swift */,
 				18634A02229C75E800C9A1EE /* AppDelegate.swift */,
 				18634A04229C75E800C9A1EE /* ViewController.swift */,
 				18634A06229C75E800C9A1EE /* Main.storyboard */,
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				18634A05229C75E800C9A1EE /* ViewController.swift in Sources */,
+				18634A17229C785900C9A1EE /* GameState.swift in Sources */,
+				18634A15229C777800C9A1EE /* sing.swift in Sources */,
 				18634A03229C75E800C9A1EE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
